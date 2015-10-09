@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="forgetPassWordButton" destination="ehl-61-52Y" id="CX3-av-nmQ"/>
+                <outlet property="loginButton" destination="sJ7-2T-LsJ" id="UDv-qa-oQO"/>
+                <outlet property="passWordTextFiled" destination="GpJ-hI-Z9T" id="vtP-i7-Lvq"/>
+                <outlet property="qqButton" destination="QFf-ud-zzV" id="Pa0-21-ri1"/>
+                <outlet property="registerButton" destination="7ci-Q3-vTj" id="eUO-aa-nYV"/>
+                <outlet property="sinaButton" destination="Q4d-fn-deN" id="She-RM-Nkh"/>
+                <outlet property="userNameTextField" destination="b1o-Uw-eoP" id="GsQ-XA-vv5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="weiChatButton" destination="J6l-lS-zNN" id="pFA-3K-Her"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wta-ga-XRb" userLabel="backgroundImage">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.86022238756613756" green="0.14804844226715355" blue="0.014092321067396748" alpha="1" colorSpace="calibratedRGB"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                    </variation>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4d-fn-deN">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="组 9.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="241" y="435" width="62" height="60"/>
+                    </variation>
+                    <connections>
+                        <action selector="sinaBtnClicked:" destination="-1" eventType="touchUpInside" id="d96-2U-VEB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ci-Q3-vTj">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" title="注册" backgroundImage="register.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="61" y="336" width="46" height="30"/>
+                    </variation>
+                    <connections>
+                        <action selector="registerBtnClicked:" destination="-1" eventType="touchUpInside" id="iiV-is-9Uv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJ7-2T-LsJ">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" title="登陆" backgroundImage="login.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="257" y="336" width="46" height="30"/>
+                    </variation>
+                    <connections>
+                        <action selector="loginBtnClicked:" destination="-1" eventType="touchUpInside" id="4ni-2N-Q4z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFf-ud-zzV" userLabel="QQBtn">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="组 8.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="61" y="433" width="60" height="62"/>
+                    </variation>
+                    <connections>
+                        <action selector="qqBtnClicked:" destination="-1" eventType="touchUpInside" id="J2M-1q-S50"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="组 11.png" translatesAutoresizingMaskIntoConstraints="NO" id="dxb-wO-Elf" userLabel="orImage.png">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="61" y="389" width="242" height="22"/>
+                    </variation>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6l-lS-zNN" userLabel="WeiXinXinBtn">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="组 10.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="152" y="434" width="60" height="61"/>
+                    </variation>
+                    <connections>
+                        <action selector="weiChatBtnClicked:" destination="-1" eventType="touchUpInside" id="Cvo-Sl-Vpt"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="582-Sc-0CQ" userLabel="userNameView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="19" translatesAutoresizingMaskIntoConstraints="NO" id="b1o-Uw-eoP" userLabel="userNameTF">
+                            <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" keyboardType="phonePad" enablesReturnKeyAutomatically="YES"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="56" y="14" width="178" height="30"/>
+                            </variation>
+                        </textField>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="K4h-TQ-JJf" userLabel="iphoneIcon">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="55" height="58"/>
+                            </variation>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="b1o-Uw-eoP"/>
+                            <exclude reference="K4h-TQ-JJf"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="61" y="203" width="242" height="58"/>
+                        <mask key="subviews">
+                            <include reference="b1o-Uw-eoP"/>
+                            <include reference="K4h-TQ-JJf"/>
+                        </mask>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rO-gI-yre" userLabel="passWordView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GpJ-hI-Z9T" userLabel="passWordTF">
+                            <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="57" y="14" width="114" height="30"/>
+                            </variation>
+                        </textField>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locked.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Qk-Jd-BpY" userLabel="lockedIcon">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="55" height="58"/>
+                            </variation>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehl-61-52Y">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="忘记密码？">
+                                <color key="titleColor" red="0.94576719580000002" green="0.18855029619999999" blue="0.01087810119" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="179" y="14" width="63" height="30"/>
+                            </variation>
+                            <connections>
+                                <action selector="forgetBtnClicked:" destination="-1" eventType="touchUpInside" id="Rf3-o2-gjY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="GpJ-hI-Z9T"/>
+                            <exclude reference="3Qk-Jd-BpY"/>
+                            <exclude reference="ehl-61-52Y"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="61" y="270" width="242" height="58"/>
+                        <mask key="subviews">
+                            <include reference="GpJ-hI-Z9T"/>
+                            <include reference="3Qk-Jd-BpY"/>
+                            <include reference="ehl-61-52Y"/>
+                        </mask>
+                    </variation>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo03.png" translatesAutoresizingMaskIntoConstraints="NO" id="7qO-ZB-kUc">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="118" y="72" width="128" height="114"/>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="wta-ga-XRb"/>
+                    <exclude reference="Q4d-fn-deN"/>
+                    <exclude reference="7ci-Q3-vTj"/>
+                    <exclude reference="sJ7-2T-LsJ"/>
+                    <exclude reference="QFf-ud-zzV"/>
+                    <exclude reference="dxb-wO-Elf"/>
+                    <exclude reference="J6l-lS-zNN"/>
+                    <exclude reference="582-Sc-0CQ"/>
+                    <exclude reference="9rO-gI-yre"/>
+                    <exclude reference="7qO-ZB-kUc"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="wta-ga-XRb"/>
+                    <include reference="Q4d-fn-deN"/>
+                    <include reference="7ci-Q3-vTj"/>
+                    <include reference="sJ7-2T-LsJ"/>
+                    <include reference="QFf-ud-zzV"/>
+                    <include reference="dxb-wO-Elf"/>
+                    <include reference="J6l-lS-zNN"/>
+                    <include reference="582-Sc-0CQ"/>
+                    <include reference="9rO-gI-yre"/>
+                    <include reference="7qO-ZB-kUc"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="iphone.png" width="29" height="44"/>
+        <image name="locked.png" width="34" height="43"/>
+        <image name="login.png" width="101" height="60"/>
+        <image name="logo03.png" width="197" height="243"/>
+        <image name="register.png" width="101" height="60"/>
+        <image name="组 10.png" width="90" height="90"/>
+        <image name="组 11.png" width="510" height="21"/>
+        <image name="组 8.png" width="90" height="90"/>
+        <image name="组 9.png" width="90" height="90"/>
+    </resources>
+</document>

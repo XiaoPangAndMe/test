@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7F84A69D-6561-42C2-9990-30231B0FB204</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AiDingDing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB470A3EB69847B8DF3D5472E7F69D72C0E8F64B</key>
+		<string>https://github.com/XiaoPangAndMe/AiDingDing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AiDingDing.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB470A3EB69847B8DF3D5472E7F69D72C0E8F64B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/XiaoPangAndMe/AiDingDing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB470A3EB69847B8DF3D5472E7F69D72C0E8F64B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB470A3EB69847B8DF3D5472E7F69D72C0E8F64B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AiDingDing</string>
+		</dict>
+	</array>
+</dict>
+</plist>

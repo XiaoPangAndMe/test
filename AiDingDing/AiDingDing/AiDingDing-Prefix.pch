@@ -1,0 +1,23 @@
+//
+//  AiDingDing-Prefix.pch
+//  AiDingDing
+//
+//  Created by CDB on 15/10/8.
+//  Copyright (c) 2015年 iDingDing. All rights reserved.
+//
+
+#ifndef AiDingDing_AiDingDing_Prefix_pch
+#define AiDingDing_AiDingDing_Prefix_pch
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "NSObject+Revers.h"
+#import "WeiboSDK.h"
+#import "UIViewController+AlertView.h"
+#import "NSObject+PropertyAdd.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#define objc_msg(A,B,C) void (*objc_msgSendTyped)(id self, SEL _cmd, id _ddservice) = (void*)objc_msgSend;objc_msgSendTyped((A), (B), (C));
+#endif
